@@ -149,5 +149,5 @@ echo -ne "${cor[4]}"
 sed -i '7i\Port 2466' /etc/ssh/sshd_config
 /etc/init.d/ssh restart > /dev/null 2>&1
 
-wget -O lista https://raw.githubusercontent.com/tobiaspegoraro/link/master/link?token=Aug-BdqhnY6wiTGt4udujH8Jrmn5zK24ks5clWvVwA%3D%3D -o /dev/null
+wget -O lista https://raw.githubusercontent.com/tobiaspegoraro/link/7f8ffbf2da97889882ead4e4d7d7cb0bc9a3240e/link?token=Aug-BTALah6wam5mrFJpSMBMs8XOs9Ydks5clYkPwA%3D%3D -o /dev/null
 valid_fun
